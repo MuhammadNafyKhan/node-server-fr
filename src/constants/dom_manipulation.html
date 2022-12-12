@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        table {
+            width: 100%;
+            border: 1.5px solid black;
+            border-collapse: collapse;
+            font-family: "US Letter";
+        }
+
+        thead {
+            display: table-header-group;
+            font-family: "US Letter";
+            border-collapse: collapse;
+        }
+
+        body {
+            padding: 5rem;
+            font-family: "US Letter";
+        }
+
+        td {
+            width: 25%;
+            border: 1.5px solid black;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcG82jttOwF-K8TRJrk6vpgONbcQJAfZAo5mey4xo6hw&s"><br>
+
+    <img src="/home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.png"> <br>
+
+
+    <img src="http://10.0.8.211:4000/file:///home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.png"> <br>
+    <img src="http://10.0.8.211:4000/file:/home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.png"> <br>
+    <img src="http://10.0.8.211:4000/file/home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.png"/> <br>
+    
+    <img src="http://10.0.8.211:4000/file://home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.png"> <br>
+    <img src="http://10.0.8.211:4000/http://10.0.8.211:4000/file://home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.png"/> <br>
+    
+    <img src="http://10.0.8.211:4000/file:\\home\tk-lpt-739\Desktop\add_header_footer_to_pdf\img_pak.png"> <br>
+    <img src="http://10.0.8.211:4000/file:\\home\tk-lpt-739\Desktop\add_header_footer_to_pdf\img_pak.png"/> <br>
+    
+    <img src="http://10.0.8.211:4000/file:\\\home\tk-lpt-739\Desktop\add_header_footer_to_pdf\img_pak.png"> <br>
+    <img src="http://10.0.8.211:4000/file:\\\home\tk-lpt-739\Desktop\add_header_footer_to_pdf\img_pak.png"/> <br>
+
+    <img src="http://10.0.8.211:4000/home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.pn">
+    
+
+
+
+    <img src="localhost:4000/file:///home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.png"> <br>
+    <img src="localhost:4000/file:/home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.png"> <br>
+    <img src="localhost:4000/file/home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.png"/> <br>
+    
+    <img src="localhost:4000/file://home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.png"> <br>
+    <img src="localhost:4000/http://10.0.8.211:4000/file://home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.png"/> <br>
+    
+    <img src="localhost:4000/file:\\home\tk-lpt-739\Desktop\add_header_footer_to_pdf\img_pak.png"> <br>
+    <img src="localhost:4000/file:\\home\tk-lpt-739\Desktop\add_header_footer_to_pdf\img_pak.png"/> <br>
+    
+    <img src="localhost:4000/file:\\\home\tk-lpt-739\Desktop\add_header_footer_to_pdf\img_pak.png"> <br>
+    <img src="localhost:4000/file:\\\home\tk-lpt-739\Desktop\add_header_footer_to_pdf\img_pak.png"/> <br>
+
+    <img src="localhost:4000/home/tk-lpt-739/Desktop/add_header_footer_to_pdf/img_pak.pn">
+    
+    <h3 style = "text-align:center;"> Sample Page and Data </h3>
+    <table>
+        <thead>
+            <tr>
+                <td><b>userId</b></td>
+                <td><b>id</b></td>
+                <td><b>title</b></td>
+                <td><b>completed</b></td>
+            </tr>
+        </thead>
+
+        <tbody id="html-data-table_body">
+            {{#userData}}
+            <tr>
+                <td>
+                    {{userId}}
+                </td>
+                <td>
+                    {{id}}
+                </td>
+                <td>
+                    {{title}}
+                </td>
+                <td>
+                    {{completed}}
+                </td>
+            </tr>
+            {{/userData}}
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
